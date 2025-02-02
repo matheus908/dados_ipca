@@ -4,6 +4,7 @@
 * Objetivo/Pergunta
 * Busca e importação dos dados
 * Tratamento e transformação dos dados
+* Criando as tabelas
 * Criação relatório
 * Link código
 * Arquivo pbix(Power BI Desktop)
@@ -34,5 +35,27 @@ Diante disto, o cliente pede uma análise do IPCA desde sua fundação com gera�
 * o 2º bloco traz os parametros necessários para conseguir extrair os dados da API
 * o 3º bloco é URL da API , já com os parametros
 * o 4º bloco faz a requisição, extrair os dados e já cria um spark dataframe, ainda com os dados puros
+
+### 3.Tratamento e transformação dos dados
+
+![image](https://github.com/user-attachments/assets/88d7449b-91d9-4cbd-8dab-74dbb503e92d)
+
+* no 1º bloco os dados que estavam em formato de texto são convertidos para a data e decimal, a divisao por 100 acontece porque os dados não vieram no formato de % para power BI.
+* no 2º bloco realizamos o calculo do IPCA acumulado (jan a dez), a criação de uma coluna de data com Ano-01-01 é usada para facilitar o relacionamento com a tabela de calendário que sará criada mais a frente
+* no 3º bloco realizamos a criação do dataframe que vai calcular a média do IPCA dos últimos 5 anos, já tirando os anos da pandemia(2020,2021), feito de maneira dinamica, caso chegasse novos dados de IPCA.
+
+### 4.Criando as tabelas
+
+![image](https://github.com/user-attachments/assets/a0d81ddb-eb97-4bb7-a57b-00f62a85746a)
+
+* No 1 º bloco,criamos um schema separado ,para guardar as tabelas
+* No 2º bloco, criamos as tabelas fatos
+* No 3º bloco cria a tabela dimensão de calendário.
+
+### Criação do relatório
+
+
+
+
 
 
