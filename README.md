@@ -64,7 +64,7 @@ Diante disto, o cliente pede uma análise do IPCA desde sua fundação com gera�
 
 6. Link código
 
-![image](https://github.com/user-attachments/assets/41d59dbb-94de-441b-8d9c-a4e07c76c153)
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1643940913563488/3216932506971297/7208511417105602/latest.html
 
   
 
