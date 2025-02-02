@@ -7,7 +7,6 @@
 * Criando as tabelas
 * Criação relatório
 * Link código
-* Arquivo pbix(Power BI Desktop)
 
 #### Tecnologias utilizadas:
 
@@ -52,7 +51,25 @@ Diante disto, o cliente pede uma análise do IPCA desde sua fundação com gera�
 * No 2º bloco, criamos as tabelas fatos
 * No 3º bloco cria a tabela dimensão de calendário.
 
-### Criação do relatório
+### 5.Criação do relatório
+
+![image](https://github.com/user-attachments/assets/f78614e7-d90a-48de-98bd-aa9f54347910)
+
+![image](https://github.com/user-attachments/assets/592d3370-65cc-4d1c-b8ba-9a8f054f3149)
+
+
+* Relatório contendo a média do IPCA dos últimos 5 anos (mensal e acumulado)
+* IPCA acumulado por ano, desde 1994 até 2024.
+* Alguns insights, observações e próximos passos.
+
+6. Link código
+
+![image](https://github.com/user-attachments/assets/41d59dbb-94de-441b-8d9c-a4e07c76c153)
+
+  
+
+
+
 
 
 
