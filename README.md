@@ -31,4 +31,9 @@ Diante disto, o cliente pede uma análise do IPCA desde sua fundação com gera�
 
 ![image](https://github.com/user-attachments/assets/11f35685-269a-4515-a8cb-101e45718eb6)
 
+* o 1º bloco, pega as bibliotecas necessárias, a request, que é usada para fazer a requisição a API, nesse caso a API dos dados o banco central sobre IPCA.
+* o 2º bloco traz os parametros necessários para conseguir extrair os dados da API
+* o 3º bloco é URL da API , já com os parametros
+* o 4º bloco faz a requisição, extrair os dados e já cria um spark dataframe, ainda com os dados puros
+
 
