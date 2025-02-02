@@ -16,5 +16,3 @@
 * DataBricks
 * Python
 * Power BI
-
-* 
