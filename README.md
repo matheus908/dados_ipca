@@ -27,3 +27,8 @@ O cliente tem impactos diretos conforme a variação do Índice de Preços ao Co
 
 Diante disto, o cliente pede uma análise do IPCA desde sua fundação com geração de insights relevantes para que ele possa melhorar seu negócio.
 
+### 2.Busca e importação dos dados
+
+![image](https://github.com/user-attachments/assets/11f35685-269a-4515-a8cb-101e45718eb6)
+
+
